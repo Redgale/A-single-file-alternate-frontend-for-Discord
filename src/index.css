@@ -1,0 +1,32 @@
+:root {
+  color-scheme: dark;
+  font: 16px/1.4 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #e7e8ea;
+  background: #26272b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #101113;
+  border-radius: 6px;
+}
